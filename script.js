@@ -8,7 +8,7 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "Haan je 🙈🙈";
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
-  // yes-btn.style.display='none';
+  yesBtn.style.display='none';
 });
 
 noBtn.addEventListener("click", () => {
