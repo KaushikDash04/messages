@@ -9,6 +9,7 @@ yesBtn.addEventListener("click", () => {
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
   yesBtn.style.display='none';
+  noBtn.style.display='none';
 });
 
 noBtn.addEventListener("click", () => {
